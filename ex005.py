@@ -1,0 +1,5 @@
+print("Faça um programa que leia um número e mostre na tela seu sucessor e seu antecessor")
+n1 = int(input("Digite o primeiro número "))
+suc = (n1 + 1)
+ant = (n1 - 1)
+print('O numero digitado é {} seu  sucessor é {} e o antecessor é {}'.format(n1, suc, ant))
